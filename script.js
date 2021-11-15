@@ -3,9 +3,13 @@ const nav = document.querySelector("#nav-links"),
 let open = false;
 
 window.addEventListener("resize", () => {
-  if (!open) {
-    nav.style.height = "55vh";
+  if (window.innerWidth == 1440) {
+    nav.style.height = "50%";
     nav.style.opacity = "1";
+  } else {
+    open = true;
+    nav.style.height = "0vh";
+    nav.style.opacity = "0";
   }
 });
 

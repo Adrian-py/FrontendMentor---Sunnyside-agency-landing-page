@@ -81,11 +81,11 @@ nav ul li#contact-button a {
   transition: all 150ms ease-in-out;
 }
 
-nav ul li#contact-button:active {
+nav ul li#contact-button:hover {
   background: rgba(255, 255, 255, 0.25);
 }
 
-nav ul li#contact-button:active a {
+nav ul li#contact-button:hover a {
   color: var(--white);
 }
 
@@ -186,7 +186,7 @@ main .second #second-button::after {
   z-index: -1;
 }
 
-main .second #second-button:active::after {
+main .second #second-button:hover::after {
   opacity: 0.85;
 }
 
@@ -272,7 +272,7 @@ main .third #third-button::after {
   z-index: -1;
 }
 
-main .third #third-button:active::after {
+main .third #third-button:hover::after {
   opacity: 0.85;
 }
 
@@ -514,7 +514,7 @@ footer ul li a {
   transition: all 150ms ease-in-out;
 }
 
-footer ul li a:active {
+footer ul li a:hover {
   color: var(--white);
 }
 
@@ -529,7 +529,7 @@ footer .social-media-links svg {
   cursor: pointer;
 }
 
-footer .social-media-links svg:active path {
+footer .social-media-links svg:hover path {
   fill: var(--white);
 }
 
@@ -576,11 +576,11 @@ footer .social-media-links svg:active path {
     background: hsl(51, 99%, 49%);
   }
 
-  nav ul li#contact-button:active {
+  nav ul li#contact-button:hover {
     background: hsl(51, 99%, 49%, 0.5);
   }
 
-  nav ul li#contact-button:active a {
+  nav ul li#contact-button:hover a {
     color: var(--darkText);
   }
 
